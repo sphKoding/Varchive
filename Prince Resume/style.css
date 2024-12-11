@@ -1,0 +1,27 @@
+* {
+ margin: 0px;
+}
+
+.header {
+ margin: 20px 0px 13px 0px;
+ border: 13px #00061C;
+ border-style: solid none solid none;
+ /*  
+ border-top-style: none;
+ border-right-style: solid;
+ border-bottom-style: none;
+ border-left-style: solid; 
+ */
+ padding: 8px 10px 8px 10px;
+ background: #252D51;
+ color: #FBFFFF;
+ display: flex;
+}
+header > ul {
+ border-radius: 10px;
+ padding: 8px 20px 8px 40px;
+ background: #2B3968;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
