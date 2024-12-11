@@ -1,9 +1,12 @@
 * {
  margin: 0px;
 }
+body {
+ font-size: 1.5em;
+}
 
 .header {
- height: 120px;
+ height: auto;
  margin: 45px 0px 13px 0px;
  border: 13px #00061C;
  border-style: solid none solid none;
@@ -26,9 +29,11 @@
  border-radius: 10px;
  padding: 8px 20px 8px 40px;
  background: #2B3968;
+ /*
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
+ */
 }
 .profile {
  width: 249px;
@@ -56,8 +61,21 @@ aside {
  z-index: -1;
  color: #FBFFFF;
 }
-/*
-aside p {
- justify-content: center;
+aside > p {
+ text-align: center;
 }
-*/
+
+@media screen and (max-width: 480px) {
+ body {
+  font-size: 1em;
+ }
+ .header{
+  margin: 300px 0px 13px 0px;
+ }
+ .header > ul {
+  padding: 8px 300px 8px 40px;
+ }
+ aside {
+  padding: 470px 10px 8px 10px;
+ }
+}
