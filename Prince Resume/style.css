@@ -130,7 +130,7 @@ footer {
   flex-direction: column;
  }
  .flex div {
-  width: 100%;
+  width: 90%;
  }
  .flex > .seminar {
   border-style: dashed none dashed none;
