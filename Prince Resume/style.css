@@ -2,7 +2,13 @@
  margin: 0px;
 }
 body {
- font-size: 1.5em;
+ font-size: 1.6em;
+}
+section {
+ margin: 10px 10px 10px 10px;
+}
+p {
+ margin: 10px 10px 10px 10px;
 }
 
 .header {
@@ -55,7 +61,7 @@ aside {
  border-radius: 0px 0px 20px 20px;
  padding: 320px 10px 8px 10px;
  background: #556BC1;
- position: absolute;
+ position: absolute; 
  right: 25px;
  top: 0px;
  z-index: -1;
@@ -63,6 +69,46 @@ aside {
 }
 aside > p {
  text-align: center;
+}
+hr {
+ height: 8px;
+ border: none;
+ background: #314482;
+}
+.skills {
+ margin: 10px 10px 10px 10px;
+}
+
+.flex {
+ /* border: 1px solid black; */
+ position: static; 
+ z-index: -2;
+ display: flex;
+}
+.flex div {
+ width: 35%;
+ margin: 0px 10px 0px 10px;
+ /* border: 1px solid black; */
+ padding: 0px 10px 0px 10px;
+ /* font-size: 1.4em; */
+}
+.flex > .seminar {
+ border: 8px #777F96;
+ border-style: none dashed none dashed;
+ font-size: 1.4em;
+}
+.flex > .reference {
+ padding: 720px 10px 10px 10px;
+}
+
+footer {
+ background: #D4DBEE;
+ border: 2px solid #566CBE;
+ border-radius: 10px;
+ margin: 10px;
+ position: static;
+ /* bottom: 0px; */
+ z-index: -2;
 }
 
 /* responsive for mobile */
