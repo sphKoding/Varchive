@@ -125,4 +125,17 @@ footer {
  aside {
   padding: 470px 10px 8px 10px;
  }
+ .flex {
+  margin: 400px 10px 10px 10px;
+  flex-direction: column;
+ }
+ .flex div {
+  width: 100%;
+ }
+ .flex > .seminar {
+  border-style: dashed none dashed none;
+ }
+ .flex > .reference {
+ padding: 10px 10px 10px 10px;
+ }
 }
