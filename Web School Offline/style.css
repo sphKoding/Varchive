@@ -1,0 +1,22 @@
+body {
+ margin: 0;
+ text-align: center;
+ font-size: 1.2em;
+}
+
+section {
+ /* display: flex; */
+ height: 325px;
+ padding: 10px;
+ align-content: center;
+} 
+/* section button {
+ display: block;
+ text-align: center;
+} */
+
+.html_python {
+ background: linear-gradient(
+  to right, #2C324C, #3E4B5E, #516775
+  );
+}
