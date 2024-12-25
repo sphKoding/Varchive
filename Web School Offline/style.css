@@ -34,6 +34,12 @@ section button {
  background: #282A36;
  color: #fff;
 }
+a {
+ text-decoration: none;
+}
+a:visited {
+ color: #FFFFFF;
+}
 .html_python {
  background: linear-gradient(
   to right, #2C324C, #3E4B5E, #516775
