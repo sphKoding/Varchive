@@ -35,6 +35,7 @@ section button {
  color: #fff;
 }
 a {
+ /* width: 100%; */
  text-decoration: none;
 }
 a:visited {
