@@ -117,7 +117,8 @@ section button {
 .example_container .example_code {
  background: #fff;
  /* border isn't fucking working */
- border: 0px 0px 0px 2px solid #A3FFCE;
+ border: 5px #11998E;
+ border-style: none none none solid;
  padding: 5px;
 }
 
@@ -125,3 +126,9 @@ section button {
  display: flex;
  flex-wrap: wrap;
 }
+
+@media screen and (min-width: 480px) {
+ .nav_container div {
+  width: 50px;
+ }
+} 
