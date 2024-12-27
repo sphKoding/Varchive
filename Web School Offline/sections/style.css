@@ -97,3 +97,8 @@ header h1 {
  opacity: 1;
  right: 0;
 }
+
+hr {
+ margin: 15px 0px 15px 0px;
+ border: 1px solid #EEEEEE;
+}
