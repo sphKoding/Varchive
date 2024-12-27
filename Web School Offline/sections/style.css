@@ -1,7 +1,7 @@
 * {
  margin: 0;
 }
-h1, h2, p, button {
+h1, h2, p {
  margin: 15px;
 }
 
@@ -106,13 +106,17 @@ hr {
 section h2 {
  font-weight: normal;
 } 
+section button {
+ margin: 15px;
+}
 
 .example_container {
  background: #E8E9EB;
  padding: 10px;
 }
-.example_code {
+.example_container .example_code {
  background: #fff;
+ /* border isn't fucking working */
  border: 0px 0px 0px 2px solid #A3FFCE;
  padding: 5px;
 }
