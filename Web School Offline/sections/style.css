@@ -1,0 +1,134 @@
+* {
+ margin: 0;
+}
+h1, h2, p {
+ margin: 15px;
+}
+
+nav {
+ height: 45px;
+ display: flex;
+ background: linear-gradient(
+  to right, #35E97E, #25C386, #15A08D
+  );
+ box-shadow: 0px 1px 5px grey;
+}
+nav canvas {
+ width: 50px;
+ height: 50px;
+ border: 1px solid black;
+}
+.nav_container {
+ width: 30%;
+ background: linear-gradient(
+  to right, #35E97E, #25C386, #15A08D
+  );
+ display: flex;
+}
+.nav_container div {
+ width: 49%;
+ height: auto;
+ border: 0.5px solid #35E97E; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.nav_container button {
+ height: 100%;
+ background: none;
+ border: none;
+ transition: 0.4s;
+}
+.nav_container button:hover {
+ background: black;
+}
+div img {
+ width: 100%;
+ height: auto;
+}
+.home img {
+ width: 70%;
+ height: auto;
+ /* justify-content: center; */
+}
+
+header h1 {
+ /* margin: 15px; */
+ font-weight: normal;
+}
+
+.intro {
+ background: linear-gradient(
+  to right, #F8FFD1, #CBFFCF, #A3FFCE
+  );
+ padding: 15px 10px 15px 10px;
+}
+.intro button {
+ width: 210px;
+ margin: 10px 15px 10px 15px;
+ border: none;
+ border-radius: 20px;
+ padding: 10px 15px 10px 15px;
+ background: #11998E;
+ font-weight: bold;
+ color: #FFFFFF;
+ transition: all 0.5s;
+ cursor: pointer;
+ vertical-align: middle;
+}
+.intro_btn span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+.intro_btn span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+.intro_btn:hover span {
+ padding-right: 25px;
+}
+.intro_btn:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+hr {
+ margin: 15px 0px 15px 0px;
+ border: 1px solid #EEEEEE;
+}
+
+section h2 {
+ font-weight: normal;
+} 
+section button {
+ margin: 15px;
+}
+
+.example_container {
+ background: #E8E9EB;
+ padding: 10px;
+}
+.example_container .example_code {
+ background: #fff;
+ /* border isn't fucking working */
+ border: 5px #11998E;
+ border-style: none none none solid;
+ padding: 5px;
+}
+
+.references_container {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+@media screen and (min-width: 480px) {
+ .nav_container div {
+  width: 50px;
+ }
+} 

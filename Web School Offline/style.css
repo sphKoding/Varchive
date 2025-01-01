@@ -1,0 +1,54 @@
+body {
+ margin: 0;
+ text-align: center;
+ font-size: 1.2em;
+}
+
+section {
+ /* display: flex; */
+ min-height: 325px;
+ padding: 10px;
+ align-content: center;
+}
+section h1 {
+ margin: 10px;
+ font-size: 2.5em;
+}
+section button {
+ width: 50%;
+ margin: 8px;
+ border: none;
+ border-radius: 20px;
+ padding: 10px;
+ font-weight: bold;
+ /* display: block;
+ text-align: center; */
+} 
+#button_green {
+ background: linear-gradient(
+  to right, #35E97E, #25C386, #15A08D
+  );
+ color: #FFFFFF;
+}
+#button_black {
+ background: #282A36;
+ color: #fff;
+}
+a {
+ /* width: 100%; */
+ text-decoration: none;
+}
+a:visited {
+ color: #FFFFFF;
+}
+.html_python {
+ background: linear-gradient(
+  to right, #2C324C, #3E4B5E, #516775
+  );
+ color: #FFFFFF;
+}
+.css_ourPlaylist {
+ background: linear-gradient(
+  to right, #F7FFD0, #CEFFCF, #A3FFCE
+  );
+}
