@@ -68,6 +68,9 @@ h2 {
  justify-content: flex-end;
 }*/
 /* I have no idea what the fuck is wrong with this */
-#wso {
+.wso {
  background-image: url(/Web School Offline/WebSchoolOffline.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
 }
