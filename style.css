@@ -53,9 +53,10 @@ h2 {
  margin-top: 8px;
  display: flex;
  justify-content: space-evenly;
+ flex-wrap: wrap;
 }
 .project_container div {
- width: 30%;
+ width: 220px;
  height: 280px;
  margin-top: 10px;
  border: 1px solid black;
