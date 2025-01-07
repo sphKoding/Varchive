@@ -1,7 +1,28 @@
+* {
+ margin: 0px;
+}
 body {
  font-size: 15pt;
 }
-
+header {
+ /* background: #6A675F; */
+ padding-top: 2px;
+ padding-left: 5px;
+ padding-bottom: 2px;
+ padding-right: 5px;
+}
+header,.nav {
+ /* border: 1px solid black; */
+ display: flex;
+ justify-content: space-between;
+ align-items: center; 
+ /* flex-wrap: wrap; */
+}
+.nav li {
+ display: block; 
+ margin: 5px;
+ /* border: 1px solid black; */
+}
 .project_container div {
  width: 100%;
  height: 200px;
