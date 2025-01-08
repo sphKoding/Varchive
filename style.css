@@ -53,10 +53,11 @@ h2 {
  margin-top: 8px;
  display: flex;
  justify-content: space-evenly;
+ flex-wrap: wrap;
 }
 .project_container div {
- width: 30%;
- height: 250px;
+ width: 220px;
+ height: 280px;
  margin-top: 10px;
  border: 1px solid black;
  display: flex;
@@ -68,9 +69,14 @@ h2 {
  justify-content: flex-end;
 }*/
 /* I have no idea what the fuck is wrong with this */
-.wso {
+
+/*#wso {
+ background-image: url(/Web School Offline/WebSchoolOffline.png);
+}*/
+
+/*.wso {
  background-image: url(/Web School Offline/WebSchoolOffline.png);
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
-}
+}*/
